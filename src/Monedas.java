@@ -1,5 +1,7 @@
-public record Monedas( String moneda_base,
-                       String moneda_target,
-                       double conversion_rate) {
+public record Monedas( String result,
+                       String base_code,
+                       String target_code,
+                       double conversion_rate,
+                       double conversion_result){
 
 }
